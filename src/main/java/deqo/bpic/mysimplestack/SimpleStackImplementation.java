@@ -13,6 +13,10 @@ import java.util.Stack;
 public class SimpleStackImplementation implements SimpleStack {
     private Stack<Object> stack = new Stack<Object>();
 
+    /**
+     * Testing github tasks for issue #2.
+     * @return
+     */
     @Override
     public boolean isEmpty() {
         return stack.isEmpty();
